@@ -1,0 +1,53 @@
+$(function(){
+    $(".menu_btn").mouseover(function(){
+        $(".mouse").addClass("clk")
+    })
+    $(".menu_btn").mouseout(function(){
+        $(".mouse").removeClass("clk")
+    })
+    $(".Menu-list-item").mouseover(function(){
+        $(".mouse").addClass("clk")
+    })
+    $(".Menu-list-item").mouseout(function(){
+        $(".mouse").removeClass("clk")
+    })
+    $(".contents1>i").mouseover(function(){
+        $(".mouse").addClass("clk")
+    })
+    $(".contents1>i").mouseout(function(){
+        $(".mouse").removeClass("clk")
+    })
+    $(".work>div>a").mouseover(function(){
+        $(".mouse").addClass("clk")
+    })
+    $(".work>div>a").mouseout(function(){
+        $(".mouse").removeClass("clk")
+    })
+    $(".top_arrow").mouseover(function(){
+        $(".mouse").addClass("clk")
+    })
+    $(".top_arrow").mouseout(function(){
+        $(".mouse").removeClass("clk")
+    })
+    $(".ps_b").mouseover(function(){
+        $(".mouse").addClass("ps")
+    })
+    $(".ai_b").mouseover(function(){
+        $(".mouse").addClass("ai")
+    })
+    $(".ht_b").mouseover(function(){
+        $(".mouse").addClass("ht")
+    })
+    $(".cs_b").mouseover(function(){
+        $(".mouse").addClass("cs")
+    })
+    $(".js_b").mouseover(function(){
+        $(".mouse").addClass("js")
+    })
+    $(".xls_b").mouseover(function(){
+        $(".mouse").addClass("xls")
+    })
+    $(".last_prodiv a").mouseout(function(){
+        $(".mouse").removeClass("ps ai ht cs js xls")
+    })
+})
